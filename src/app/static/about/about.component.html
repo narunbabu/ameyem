@@ -1,0 +1,107 @@
+<div class="background">
+  <div class="gradient">
+    <div class="container">
+      <h1>{{ 'anms.title' | translate }}</h1>
+      <div class="actions">
+        <a [ngClass]="routeAnimationsElements"
+           mat-raised-button class="actions-main" color="primary" routerLink="../features">
+          {{ 'anms.menu.features' | translate }}
+        </a>
+        <a [ngClass]="routeAnimationsElements"
+           mat-raised-button class="actions-main" color="warn" routerLink="../geosol">
+          {{ 'anms.menu.geosolutions' | translate }}
+        </a>
+        <a [ngClass]="routeAnimationsElements"
+           mat-raised-button class="actions-main" color="accent" routerLink="../training">
+          {{ 'anms.menu.training' | translate }}
+        </a>
+        <a mat-raised-button class="actions-main" color="warn" routerLink="../examples"
+           [ngClass]="routeAnimationsElements">
+          {{ 'anms.menu.examples' | translate }}
+        </a>
+        <a mat-raised-button class="actions-main" color="primary" routerLink="../settings"
+           [ngClass]="routeAnimationsElements">
+          {{ 'anms.about.change-theme' | translate }}
+        </a>
+        <!-- <br>
+        <span [ngClass]="routeAnimationsElements">{{ 'anms.about.check-blogs' | translate }}</span>
+        <br>
+        <a mat-raised-button
+           [ngClass]="routeAnimationsElements"
+           target="_blank"
+           href="https://medium.com/@tomastrajan/the-complete-guide-to-angular-material-themes-4d165a9d24d1">
+          <mat-icon fontSet="fab" fontIcon="fa-medium-m"></mat-icon>
+          Material Theming
+        </a>
+        <a mat-raised-button
+           [ngClass]="routeAnimationsElements"
+           target="_blank"
+           href="https://medium.com/@tomastrajan/6-best-practices-pro-tips-for-angular-cli-better-developer-experience-7b328bc9db81">
+          <mat-icon fontSet="fab" fontIcon="fa-medium-m"></mat-icon>
+          Angular Cli Tips
+        </a>
+        <a mat-raised-button
+           [ngClass]="routeAnimationsElements"
+           target="_blank"
+           href="https://medium.com/@tomastrajan/object-assign-vs-object-spread-in-angular-ngrx-reducers-3d62ecb4a4b0">
+          <mat-icon fontSet="fab" fontIcon="fa-medium-m"></mat-icon>
+          Ngrx Typescript Tips
+        </a>
+        <a mat-raised-button
+           [ngClass]="routeAnimationsElements"
+           target="_blank"
+           href="https://medium.com/@tomastrajan/how-to-style-angular-application-loading-with-angular-cli-like-a-boss-cdd4f5358554">
+          <mat-icon fontSet="fab" fontIcon="fa-medium-m"></mat-icon>
+          App Loading Style
+        </a> -->
+      </div>
+      <div class="get-started" [ngClass]="routeAnimationsElements">
+       
+        <!-- <code>git clone
+          https://github.com/tomastrajan/angular-ngrx-material-starter.git
+          new-project</code><br>
+        <code>cd new-project</code><br>
+        <code>npm install</code><br>
+        <code>npm start</code> -->
+        <h2>{{ 'anms.about.associate-with-us' | translate }}</h2>
+        <p>{{'anms.about.associate-with-us.description' | translate}} <a  routerLink="../geosol" >more..</a></p>
+        
+        <img [src]="oilgasServices" alt="Specialised services with Machine Learning techniques and Seismic interpretations">
+  
+      </div>
+    </div>
+  </div>
+</div>
+<!-- <div class="container">
+  <div class="follow-releases" [ngClass]="routeAnimationsElements">
+    <h2>{{ 'anms.about.get-notified' | translate }}</h2>
+    <p>
+      {{ 'anms.about.get-notified.follow' | translate }} <a
+      href="https://www.twitter.com/myameyem" target="_blank">Release
+      Butler</a>
+      {{ 'anms.about.get-notified.description' | translate }}
+    </p>
+
+    <img [src]="releaseButler" alt="Release Butler tweet example">
+  </div>
+</div> -->
+
+<div class="container">
+  <div class="follow-releases" [ngClass]="routeAnimationsElements">
+    <h2>{{ 'anms.about.get-trained' | translate }}</h2>
+    <p>
+      
+      {{ 'anms.about.get-trained.description' | translate }}
+      {{ 'anms.about.get-trained.follow' | translate }} <a
+      href="https://www.twitter.com/myameyem" target="_blank">@myameyem</a>
+    
+    </p>
+    <a  routerLink="../training">
+    <img [src]="trainingCourses" alt="Trainings on Web Development, JavaScript, C, Python, PHP, Laravel and many more">
+  </a>
+  </div>
+</div>
+
+<!-- <div style="width: 800px; height: 400px">
+  <carousel [sources]="imageSources" [config]="config"></carousel>
+</div> -->

@@ -1,0 +1,69 @@
+{
+  "anms.title": "Ameyem Geosolutions and Ameyem Skill Labs",
+  "anms.title.short": "Ameyem",
+  "anms.header.github": "Project Github Repository",
+  "anms.footer.changelog": "Show changelog",
+  "anms.menu.about": "About",
+  "anms.menu.geosolutions": "Geosolutions",
+  "anms.menu.training": "Training",
+  "anms.menu.contact": "Contact",
+  "anms.menu.ml": "Machine Learning",
+  "anms.menu.softweb": "Software & Web",
+  "anms.menu.features": "Features",
+  "anms.menu.examples": "Examples",
+  "anms.menu.settings": "Settings",
+  "anms.menu.login": "ASDP Login",
+  "anms.menu.logout": "Logout",
+  "anms.about.change-theme": "Change Theme",
+  "anms.about.check-blogs": "or check blogs about",
+  "anms.about.get-started": "Get stared",
+  "anms.about.associate-with-us":
+    "Geophysical services & Machine Learnig- Highly reliable...",
+  "anms.about.associate-with-us.description":
+    "Geophysical services such as Seismic Interpretation from strat to prospectivity analysis & volumetrics, various Geophysical surveys- we provide services with utmost care on quality. We not only provide conventional services but we are equipped with the tools to provide most advanced services like Machine learning applications in Oil & Gas Industry. We value our client requirements and their work is our first and foremost priority. We value friends who are willing to work with us and this is the best opportunity for us to move forward collectively.",
+  "anms.about.get-trained": "We are leaders of online training in South India",
+  "anms.about.get-trained.follow": "Follow Us",
+  "anms.about.get-trained.description":
+    "Trainig with guidance is the unique feature of our training modules. Each and every candidate will get personal touch from the professional guidance and one will never fell he/she is away from live classes. Tasks after every chapter ensures the students get hold of the chapter objective and they will be in a position to answer any sort of question on that chapter",
+
+  "anms.about.get-notified": "Get notified about new releases",
+  "anms.about.get-notified.follow": "Follow",
+  "anms.about.get-notified.description":
+    "a Twitter bot that helps you to stay up to date with releases of popular frontend frameworks & libraries!",
+  "anms.features.title": "Features",
+  "anms.features.documentation": "Docs",
+  "anms.features.guide": "Guide",
+  "anms.features.angular": "Modern powerful framework",
+  "anms.features.angular-material": "Material design component library",
+  "anms.features.angular-cli": "A command line interface for Angular",
+  "anms.features.ngrx": "One way data flow powered by RxJS Observables",
+  "anms.features.ngxtranslate": "An internationalization library for Angular",
+  "anms.features.rxjs":
+    "Reactive programming with async collections using Observables",
+  "anms.features.bootstrap":
+    "Responsive layout from battle tested, world most famous UI library",
+  "anms.features.typescript":
+    "Superior developer experience, code completion, refactoring and less bugs",
+  "anms.features.fontawesome": "Easy to use vector icons and social logos",
+  "anms.features.themes":
+    "Flexible theming support for provided and custom components",
+  "anms.features.themes.title": "Themes",
+  "anms.features.lazyloading":
+    "Faster startup time with lazy loaded feature modules",
+  "anms.features.lazyloading.title": "Lazy loading",
+  "anms.settings.title": "Settings",
+  "anms.settings.general": "General",
+  "anms.settings.general.placeholder": "Language",
+  "anms.settings.general.language.en": "English",
+  "anms.settings.general.language.sk": "Slovak",
+  "anms.settings.themes": "Themes",
+  "anms.settings.themes.placeholder": "Color Theme",
+  "anms.settings.themes.blue": "Blue",
+  "anms.settings.themes.light": "Light",
+  "anms.settings.themes.nature": "Nature",
+  "anms.settings.themes.dark": "Dark",
+  "anms.settings.themes.night-mode": "Auto night mode (from 21:00 to 7:00)",
+  "anms.settings.animations": "Animations",
+  "anms.settings.animations.page": "Navigation whole page transition",
+  "anms.settings.animations.elements": "Navigation page elements slide up"
+}

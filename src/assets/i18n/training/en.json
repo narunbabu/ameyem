@@ -1,0 +1,67 @@
+{
+  "anms.training.menu.home": "Home",
+  "anms.training.menu.partners": "Partners",
+  "anms.training.menu.how2work": "How It works",
+  "anms.training.menu.courses": "Courses",
+  "anms.training.menu.certificates": "Certificate",
+  "anms.training.partners.input": "I am going to...",
+  "anms.training.partners.tooltip.add": "Add new todo",
+  "anms.training.partners.tooltip.remove": "Remove done partners",
+  "anms.training.partners.list": "Todo list",
+  "anms.training.partners.example": "Todo example",
+  "anms.training.partners.text1": "This is a classic",
+  "anms.training.partners.text2": "todo",
+  "anms.training.partners.text3":
+    "example with support for adding, toggling, removing and filtering of the todo items.",
+  "anms.training.partners.text4": "State handling is implemented using",
+  "anms.training.partners.text5":
+    "module and support for lazy loaded reducers (this is a lazy loaded feature module).",
+  "anms.training.partners.text6":
+    "Todos are persisted into local storage so you should see your partners also on later visits when using the same browser.",
+  "anms.training.partners.filter.all": "All",
+  "anms.training.partners.filter.done": "Done",
+  "anms.training.partners.filter.active": "Active",
+  "anms.training.partners.filter.description": "Displaying",
+  "anms.training.partners.filter.items": "partners",
+  "anms.training.partners.filter.item": "todo",
+  "anms.training.how2work.title": "Stock market",
+  "anms.training.how2work.symbol": "Stock symbol",
+  "anms.training.how2work.description":
+    "Please provide some valid stock market symbol like:",
+  "anms.training.how2work.text1": "Stock market example shows how to implement",
+  "anms.training.how2work.text2": "requests using",
+  "anms.training.how2work.text3": "module.",
+  "anms.training.how2work.text4":
+    "Updating symbol query with different symbol will emit action which updates state with loading flag (reducer) and triggers effect for retrieving of selected stock.",
+  "anms.training.how2work.text5":
+    "Actions are debounced and every subsequent request will cancel previous one using",
+  "anms.training.how2work.text6":
+    "Success or error actions are emitted on request completion. Loading spinner is removed and stock info or error message is displayed.",
+  "anms.training.how2work.error1": "Stock",
+  "anms.training.how2work.error2": "not found",
+  "anms.training.courses.parent.title": "Theme scoping with nested components",
+  "anms.training.courses.parent.description": "parent works!",
+  "anms.training.courses.parent.text1":
+    "Theme styles are not imported in component's",
+  "anms.training.courses.parent.text2": "property of",
+  "anms.training.courses.parent.text3": "decorator but in the main",
+  "anms.training.courses.parent.text4":
+    "file. Because of this, theme styles are",
+  "anms.training.courses.parent.text5": "NOT",
+  "anms.training.courses.parent.text6":
+    "scoped to the component automatically.",
+  "anms.training.courses.parent.text7": "We have to use",
+  "anms.training.courses.parent.text8": "specific",
+  "anms.training.courses.parent.text9":
+    "selectors to prevent styles from leaking into child components. This can be achieved by using",
+  "anms.training.courses.parent.text10":
+    "in css rules to enhance their specificity. For example checkout theme file of this component:",
+  "anms.training.courses.child.title": "child's h1",
+  "anms.training.courses.child.subtitle": "should be without style",
+  "anms.training.courses.child.description": "child works!",
+  "anms.training.auth.title": "Authenticated component",
+  "anms.training.auth.description1":
+    "This component is only accessible for authenticated users",
+  "anms.training.auth.description2":
+    "Logging out will cause user to be redirected to home screen if visiting route accessible only to authenticated users"
+}

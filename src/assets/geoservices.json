@@ -1,0 +1,616 @@
+{
+  "data": [
+    {
+      "id": 0,
+      "subject": "Geo Solutions",
+      "parent": -1,
+      "children": [1, 13, 14, 15, 33, 39, 45, 50, 51, 52, 53, 54],
+      "description":
+        "<p>Petroleum Industry and Mining Industry face different kind of problems at different times. We at Ameyem are equipped with smart tools to tackle all sorts of problems faced by industry. Ameyem not only provide conventional solutions like, Seismic Data interpretation, Petrophysical Analysis, Rock Physics, AVO analysis but also provide solutions to those problems with unique requirements, such as Well log digitization, Seismic signal digitization from hard copies. We employ various Machine Learning techniques to address specific problems of industry, such as missing log generation, un-recorded log generation, petrophysical log creation using core samples and wireline logs and seismic inversion with ultimate quality. Please go through various solutions we are offering.</p>",
+      "im_rel_url": ["./geo/0.png"],
+      "im_descr": [
+        "Conventional services apart from Specialized services with Machine Learning, offered by Ameyem Geo Solutions."
+      ]
+    },
+    {
+      "id": 1,
+      "subject": "Special Services with Machine Learning",
+      "parent": 0,
+      "children": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "description":
+        "<p>Machine Learning is under utilized but highly promising tool in the field of Oil and Gas.</p> <p> Machine Learning and Artificial Intelligence is highly dynamic and the quantum of development it is witnessing is unimaginable. Oil and gas unable to catch the pace of ML progress when it comes to application of latest developments of ML in Oil&amp;Gas. This is mainly because of skeptism and low to average understanding of ML utility. </p> <p> We at Ameyem does a lot of reseach on how the ML tools can be utilized in every aspect of Oil&amp;Gas for better productivity interms of lowering the manpower, improving the quality of output and there by reducing the OPEX. Here we list down a few places where ML techniques can be utilized.</p>",
+      "im_rel_url": ["./geo/1.png"],
+      "im_descr": [
+        "Ameyem do provide a range of specialized G&G solutions with Machine Learning application. These include areas of Seismic, Reservoir propertis and drilling activities."
+      ]
+    },
+    {
+      "id": 2,
+      "subject": "Well Log digitization",
+      "parent": 1,
+      "children": [],
+      "description":
+        "<p>Hard copy of well logs are being digitized from very long time. It is usually highly time consuming and done with lots of approximation. Machine learning can make the job of digitizers pain less and provide quality output.</p>",
+      "im_rel_url": [],
+      "im_descr": []
+    },
+    {
+      "id": 3,
+      "subject": "Seismic digitization",
+      "parent": 1,
+      "children": [],
+      "description":
+        "<p>There are plenty of projects still looking to convert their hard copies of seismic reflection surveys with best output at minimal cost. Machine Learning can be utilized to fully automate the digitization process</p>",
+      "im_rel_url": ["./geo/3-b.png", "./geo/3.png"],
+      "im_descr": [
+        "Hard copy of PSTM (top) digitized to yield relative amplitudes section.",
+        "Sesimic hardcopy shot gathers being digitized with highest quality using Machine Learning methods"
+      ]
+    },
+    {
+      "id": 4,
+      "subject": "Missing log generation",
+      "parent": 1,
+      "children": [],
+      "description":
+        "<p>In log recording certain logs recorded with gaps at few key places, though there exists data of other logs (eg. gamma ray, SP etc.). These gaps can be replaced with high quality synthetic data generated with machine learning. Machine learning model can be trained with logistic regression or Artificial Neural networks with few nodes and one or two hidden layers with the data at other depths or other wells. This model works pretty well in generation of missing logs.</p>",
+      "im_rel_url": [],
+      "im_descr": []
+    },
+    {
+      "id": 5,
+      "subject": "Un-recorded log generation using other logs in the well",
+      "parent": 1,
+      "children": [],
+      "description":
+        "<p>At many wells recording of all sorts of logs is impossible task. At certain point of time geologists and geophysicists may think of utilizing certain kind of log which was not recorded during the logging. For example many Geophysicists think of having Shear Sonic logs (DSI) for their velocity analysis or Seismic Inversion or AVO work. Machine Learning comes to the rescue in such cases. Machine Learning can generate the synthetic data with a quality comparable to actual data. So I would suggest Geophysicists to utilize the power of Machine Learning in such scenarios.</p>",
+      "im_rel_url": [],
+      "im_descr": []
+    },
+    {
+      "id": 6,
+      "subject": "Facies classification",
+      "parent": 1,
+      "children": [],
+      "description":
+        "<p>Machine Learning is best applied for classification problems and it best suits for facies classification. This is also one of the under utilized area and would recommend to use Machine Learning to do the magic. And also recommend t-Distributed Stochastic Neighbor Embedding (t-SNE) for the dimensionality reduction that is particularly well suited for the visualization of high-dimensional datasets to visualize the facies classes.</p>",
+      "im_rel_url": [],
+      "im_descr": []
+    },
+    {
+      "id": 7,
+      "subject": "Fluid sand classification",
+      "parent": 1,
+      "children": [],
+      "description":
+        "<p>Machine Learning is best applied for classification problems and it best suits for fluid classification in a well or set of wells. Brine, Oil and Gas separation is required in almost at every stage of life of field. Machine Learning is underutilized tool. It is highly reliable and cheap technique to massively utilize.</p>",
+      "im_rel_url": ["./geo/7.png"],
+      "im_descr": [
+        "Differesnt fluid filled sands have been separated using ML techniques effectively."
+      ]
+    },
+    {
+      "id": 8,
+      "subject": "Petrophysical log prediction",
+      "parent": 1,
+      "children": [],
+      "description":
+        "<p>Where core data and well log data available can be used to train a Machine Learning model to predict petrophysical properties directly from the raw logs. This is untapped area in well log interpretation</p>",
+      "im_rel_url": ["./geo/8.png"],
+      "im_descr": [
+        "Productivity log hass been produced with around 10 raw logs and the utilization of production data"
+      ]
+    },
+    {
+      "id": 9,
+      "subject": "Seismic inversion",
+      "parent": 1,
+      "children": [],
+      "description":
+        "<p>Now a days there is no dearth of 3D seismic with very good quality. Migrated gathers can be utilized to train a Machine Learning model, which would generate synthetic well logs where wells are absent with a great quality</p>",
+      "im_rel_url": ["./geo/9.png"],
+      "im_descr": [
+        "Migrated gathers can be used to invert to petrophysical log in place of every seismic trace."
+      ]
+    },
+    {
+      "id": 10,
+      "subject": "Highly productive zones prediction",
+      "parent": 1,
+      "children": [],
+      "description":
+        "<p>If you have the production data tied to the log data- There is a chance to train a Machine learning model to predict the zones with high productivity directly</p>",
+      "im_rel_url": ["./geo/10.png"],
+      "im_descr": [
+        "Productivity log hass been produced with around 10 raw logs and the utilization of production data"
+      ]
+    },
+    {
+      "id": 11,
+      "subject": "Production Workover management",
+      "parent": 1,
+      "children": [],
+      "description":
+        "<p>Natural language processing(NLP) with machine learning is highly promising area. There a lot of unstructured data in the form of written records with production jargon. NLP technique can be applied to production monitoring and to provide timely suggestions to the production engineers. And also processing the field records, and different kind of reports may give more insight into the field management.</p>",
+      "im_rel_url": ["./geo/11.png"],
+      "im_descr": [
+        "A part of flow how Natural Language Processing can be used to streamline the workover process"
+      ]
+    },
+    {
+      "id": 12,
+      "subject": "Automatic seismic interpretation with GAN",
+      "parent": 1,
+      "children": [],
+      "description":
+        "<p>The generative adversarial neural networks (GAN) are relatively new in the store of Machine Learning (Eg. Image to image translation). These can be applied to automatically generate interpretations from the seismic sections. It is to be seen how successful are the GANs in the field of seismic interpretation.</p>",
+      "im_rel_url": [],
+      "im_descr": []
+    },
+    {
+      "id": 13,
+      "subject": "Training in G&G and Machine Learning",
+      "parent": 0,
+      "children": [],
+      "description":
+        "<p>Our professionals on the move with specialized content along with hundreds of tasks to train your young professionals. We can offer range of trainings on Seismic Interpretation, G&G application in Petroleum Industry and Mining industry, Machine Learning applications in Oil& Gas etc.</p>",
+      "im_rel_url": [],
+      "im_descr": []
+    },
+    {
+      "id": 14,
+      "subject": "Software tools for Petroleum industry",
+      "parent": 0,
+      "children": [],
+      "description":
+        "<p>Special pusrpose tools can be developed on demand by our experienced mix of Software developers and Geoscientists.</p>",
+      "im_rel_url": [],
+      "im_descr": []
+    },
+    {
+      "id": 15,
+      "subject": "Seismic Structural Interpretation",
+      "parent": 0,
+      "children": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        32,
+        33,
+        34,
+        35,
+        39,
+        45,
+        49,
+        50,
+        51,
+        52
+      ],
+      "description":
+        "<p><p>Seismic Interpretation is the most valuable and deciding factor in the life of a field and it plays a crucial role in petroleum industry. Identification of useful events is as important as picking them in less time with highest possible quality. We at Ameyem invented ways to make it possible with our immense experience not only in conventional interpretation but also with different approach. We promise to deliver highest quality output to our clients.</p> <p>Seismic Interpretation deals with range of issues to realize the final out come of depth maps, structural model and the volumetrics. Ameyem people with their rich experience deliver excellent output each of the tasks involve in interpretation. We provide timely outputs with excellent quality and apply state of the art technology for some of the tasks like generation of missing logs, facies analysis etc., using Machine Learning tools.<p></p>",
+      "im_rel_url": ["./geo/15.png"],
+      "im_descr": ["Seismic Structural interpretation in a thrust setting"]
+    },
+    {
+      "id": 16,
+      "subject": "Geological understanding",
+      "parent": 15,
+      "children": [],
+      "description":
+        "<p>Ameyem Geosolutions firmly believe that it is catastrophic if anyone attempts seismic interpretation without having thorough understanding of Geology of the study area. Understanding of Geology of the area tremendously improve that quality of interpretation and reduce lot of possible uncertainty in the final output. Thus Ameyem would like to invest considerable amount of project time in understanding the Geology of the area by studying various data such as earlier regional geological studies which include outcrop study, depositional environment, structural evolution of the area, core analysis and any of geochemical surveys and Geophysical surveys including Gravity, magnetic and electromagnetic and seismic surveys.</p>",
+      "im_rel_url": [],
+      "im_descr": []
+    },
+    {
+      "id": 17,
+      "subject": "Data QC & Conditioning",
+      "parent": 15,
+      "children": [],
+      "description":
+        "<p>The quality check and conditioning of the seismic data is far most sought aspect of any interpretation work. The Acquisition and processing reports shed light on various artifacts of the data which need to be taken care while interpretation. It needs to be checked whether further simple processing of data can improve the quality of data in question at a certain degree. Ameyem has sufficient tools to check data on various aspects. There might be the cases of over-migration, under-migration and excessive filtering on final data. Seismic data output at various stages will help to understand the data better. Thus it is requested to provide all available data for the interpretation.</p>",
+      "im_rel_url": [],
+      "im_descr": []
+    },
+    {
+      "id": 18,
+      "subject": "Project creation",
+      "parent": 15,
+      "children": [],
+      "description":
+        "<p>Before loading the data, project needs to be created with the right geographical coordinate reference system (eg. UTM84-47N), project reference datum and the units.</p>",
+      "im_rel_url": [],
+      "im_descr": []
+    },
+    {
+      "id": 19,
+      "subject":
+        "Data loading, datum correction and mis-tie analysis& correction",
+      "parent": 15,
+      "children": [],
+      "description":
+        "<p>Processing report and ascii header of the segy may provide the seismic datum and the replacement velocity which has been taken in processing. These values are sufficient for the seismic data loading and datum correction. Mistie analysis and the correction required to level the seismic to legacy seismic be calculated and applied</p>",
+      "im_rel_url": ["./geo/19-a.png", "./geo/19-b.png", "./geo/19.png"],
+      "im_descr": [
+        "Misalignment of events in different vintage sections before mistie corrections",
+        "Alignment of events of different vintage data after mistie corrections",
+        "Close view of events alignment before and after mistie analysis"
+      ]
+    },
+    {
+      "id": 20,
+      "subject": "Synthetic tie",
+      "parent": 15,
+      "children": [],
+      "description":
+        "<p>The following steps will be carried out in the process of well synthetic to seismic tie</p><ul><li>        Analysis of regional velocity data  </li><li>Construction of T-D relation in wells  </li></ul> <li>        QC of Sonic and density logs Frequency analysis of seismic data   </li><li> Construction of Syntetic seismic in the well       </li><li>   Synthetic tie with seismic using various tie criteria<li>Modified T-D relation output</li></ul>",
+      "im_rel_url": ["./geo/20-a.png", "./geo/20-b.png", "./geo/20.png"],
+      "im_descr": [
+        "Velocity data for defferent well before datumn correctiosn",
+        "Velocity curves of different wells after datumn and other corrections",
+        "Well to seismic synthetic seismic tie"
+      ]
+    },
+    {
+      "id": 21,
+      "subject": "Pre Interpretation analysis",
+      "parent": 15,
+      "children": [],
+      "description":
+        "<p>It has to be decided whether fault or horizon interpretation to be carried out first by looking at various aspects of data and objectives. Interpretation need to be designed in an optimum way to yield best results in minimum time frame.</p>",
+      "im_rel_url": [],
+      "im_descr": []
+    },
+    {
+      "id": 22,
+      "subject": "Time line for interpretation",
+      "parent": 15,
+      "children": [],
+      "description":
+        "<p>Once the pre-interpretation analysis done, tight timelines should be synthesized to carry out the work efficiently</p>",
+      "im_rel_url": [],
+      "im_descr": []
+    },
+    {
+      "id": 23,
+      "subject": "Horizon interpretation",
+      "parent": 15,
+      "children": [23, 24, 25],
+      "description":
+        "<p>Once the well to seismic tie achieved sufficiently, the events to be picked need to be decided. Depending on the number of horizons to be interpreted and the purpose of particular horizon- decision on event to be picked will be decided. Picking method will be decided depending on the quality of the event to be picked. QC to be carried out looking on random and arbitrary lines during the picking or soon after completion of the picking </p>",
+      "im_rel_url": [],
+      "im_descr": []
+    },
+    {
+      "id": 24,
+      "subject": "Suitable event identification for horizon picking",
+      "parent": 23,
+      "children": [],
+      "description":
+        "<p>It is not advised to stick to the place where the well top falls on the seismic while picking the representative horizon. Many times it turns out to be a costly afire. Well marker may not fall exactly on peak, trough or zero crossing. Interpreter need to exercise best practice to choose an event for picking. Seismic event quality at well may be good but at rest of the area the quality of event may deteriorate. It is better to sufficiently scan the seismic data before choosing an event to pick.</p>",
+      "im_rel_url": ["./geo/24.png"],
+      "im_descr": [
+        "Seismic event identification and picking of event close to well marker"
+      ]
+    },
+    {
+      "id": 25,
+      "subject": "Auto picking, Guided picking and manual picking",
+      "parent": 23,
+      "children": [],
+      "description":
+        "<p>Auto picking may not work always and many times data doesn\u00e2\u20ac\u2122t even look good for manual picking. It is entirely at Interpreter\u00e2\u20ac\u2122s discretion to decide which method to use at which place.</p>",
+      "im_rel_url": [],
+      "im_descr": []
+    },
+    {
+      "id": 26,
+      "subject": "QC of interpretation with various attributes",
+      "parent": 23,
+      "children": [],
+      "description":
+        "<p>Time to time checking of pick on arbitrary lines is best approach rather than QCing at the end of the interpretation. Extraction of various attributes such as event quality, confidence, amplitude, dip and azimuth help not only as a quality check but also to interpret faults and fractures on seismic volume.</p>",
+      "im_rel_url": [],
+      "im_descr": []
+    },
+    {
+      "id": 27,
+      "subject": "Fault interpretation",
+      "parent": 15,
+      "children": [28, 29, 30, 31],
+      "description":
+        "<p>Check for the discontinuous events and check whether that discontinuity suggests the presence of fault or fracture. Horizon attributes will help to easily identify the faults in case of seismic volume. Variance cube, ant-track are good techniques in case of superior quality seismic and when the detailed interpretation is the objective. It should be clarified in objectives whether advanced fault picking techniques to be used.</p>",
+      "im_rel_url": ["./geo/27.png"],
+      "im_descr": [
+        "Fault interpretation on time slices of an structural attribute"
+      ]
+    },
+    {
+      "id": 28,
+      "subject":
+        "Structural attributes- coherence, dip and azimuth attributes and ant-track ",
+      "parent": 27,
+      "children": [],
+      "description":
+        "<p>Structural attributes such as coherence, dip & azimuth, curvature should not be ignored to yield best out of the given data. It is up to interpreter to decide on how to utilize various attributes in order to achieve optimum results. Combination of different attributes also a best tool to visualize fault propagation in various directions. Volumetric visualization and opacity tools are of great help if utilized correctly. The key personnel at Ameyem are well equipped and mastered all up to date cutting-edge tools.</p>",
+      "im_rel_url": [],
+      "im_descr": []
+    },
+    {
+      "id": 29,
+      "subject": "Possibility check for AFP",
+      "parent": 27,
+      "children": [],
+      "description":
+        "<p>Automatic Fault Picking works well with good quality 3D data. If the data quality is good AFP is better to utilize and QC the final outcome of the process to remove what is not so useful content.</p>",
+      "im_rel_url": [],
+      "im_descr": []
+    },
+    {
+      "id": 30,
+      "subject": "Fault picking",
+      "parent": 27,
+      "children": [],
+      "description":
+        "<p>Fault picking might become a cumbersome process if not followed a suitable well thought work flow. In the compressional and transpressional settings fault picking problem become more severe as the imaging hampered by several aspects of acquisition and processing. Key qualities of interpretation procedure which fights against the inefficient workout as follows.1.Geological understanding of the area is must for interpreter before attempting any fault interpretation. 2.Experience of working in all kinds of geological setting. 3.Thorough knowledge of acquisition and processing artifacts Fault picking at regular interval is the best practice. Interpreter should have prior knowledge on dip and strike directions in the objective area. It is recommended to pick in the dip direction for less ambiguous picking. Even interpreters with lifetime experience are not well versed with picking in strike direction as the fault polyline doesnt follow the usual shapes that interpreter acquainted with. However, it is useful to cross check in the strike direction how the fault is extending. Interpreter also should have an idea of fault shadow and where exactly keep the fault stick in the discontinuous zone. In the thrust setting, fault plane cannot be seen at certain places if the interpreter is not having considerable experience in thrust setting. </p>",
+      "im_rel_url": [],
+      "im_descr": []
+    },
+    {
+      "id": 31,
+      "subject": "Validation of fault",
+      "parent": 27,
+      "children": [],
+      "description":
+        "<p>Fault pick validation usually not done in most of the interpretation works. But it is very important aspect, especially if it is a development block with thin reservoir sands and shales. Fault displacement validation is a must sought aspect of the interpretation as it serves as validation tool and gives quantitative measure of displacement across the fault plane. Ameyem has seen many contractors usually ignoring the fault displacement phenomena. Which usually result in production of imaginary structural maps where structural contours illogically behave either side of the fault plane. Ameyem has professional interpreters who are mastered in dealing with above said situations with ease.</p>",
+      "im_rel_url": [],
+      "im_descr": []
+    },
+    {
+      "id": 32,
+      "subject": "Post stack Attributes",
+      "parent": 15,
+      "children": [],
+      "description":
+        "<p>Post stack attributes provide great help in fault and facies interpretation. We have plenty of experience in utilizing post stack attributes to produce best output.</p>",
+      "im_rel_url": [],
+      "im_descr": []
+    },
+    {
+      "id": 33,
+      "subject": "Stratigraphic Interpretation",
+      "parent": 0,
+      "children": [],
+      "description":
+        "<p>Facies analysis and sequense stratigraphic interpretation can add immense benefit to many exploration and development blocks. We can offer best in the industry at minimal costs</p>",
+      "im_rel_url": [],
+      "im_descr": []
+    },
+    {
+      "id": 34,
+      "subject": "Time structure maps and isochrones ",
+      "parent": 15,
+      "children": [],
+      "description":
+        "<p>Time maps generation usually fairly easy job. But when dealing with sparse data, the stucture maps tend to be very far from reality. This is because seimic interpretation alone cannot capture the subsurface reality. In such situations interpreter needs to think of using other information such as surface geology, gravity & magnetic maps or anologus maps etc. We mastered the technique and can produce maps with close to reality.<p>",
+      "im_rel_url": [],
+      "im_descr": []
+    },
+    {
+      "id": 35,
+      "subject": "Time depth relation construction",
+      "parent": 15,
+      "children": [36, 37, 38],
+      "description":
+        "<p>Depending on the type of data availability interpreter needs to decide a best way to construct T-D relation in order to produce high quality depth maps. Interpreter also can use defferent method to arrive at a range of depth maps to capture the uncertainity in depth prediction. </p><p> Here we see three usual ways in which interpreter produce the T-D relation</p>",
+      "im_rel_url": [],
+      "im_descr": []
+    },
+    {
+      "id": 36,
+      "subject": "T-D relation only with well data",
+      "parent": 35,
+      "children": [],
+      "description":
+        "<p>This is usually done, when interpreter had plenty of well data points at his or her disposal. The maps arrived with this data represent true depths near the data points but away from the points it is highly unlikly to represent reality. This method is less effective in representing the structure as a whole.</p>",
+      "im_rel_url": ["./geo/36.png"],
+      "im_descr": [
+        "Intervel velocities of various wells depicting two velocity trends separated by a thrust fault"
+      ]
+    },
+    {
+      "id": 37,
+      "subject": "T-D relation only with seismic velocities",
+      "parent": 35,
+      "children": [],
+      "description":
+        "<p>Seismic velocities, as they are closely spaced can be used to produce spacially coherent depth maps. But the problem with these maps is that seismic velocities are not true velocities.</p> ",
+      "im_rel_url": [],
+      "im_descr": []
+    },
+    {
+      "id": 38,
+      "subject": "T-D relation with wells and seismic velocity",
+      "parent": 35,
+      "children": [],
+      "description":
+        "<p>There comes the combination of well velocities and seismic velocities. Seismic velocities can be applied after correcting them for true(well) velocities using the sparse well velocities. There are several methods available for this procedure. Selection of a method for this utilization procedure is important to represent the reality with this procedure</p>",
+      "im_rel_url": [],
+      "im_descr": []
+    },
+    {
+      "id": 39,
+      "subject": "Velocity modeling",
+      "parent": 0,
+      "children": [40, 41, 42, 43, 44],
+      "description":
+        "<p>Velocity modeling is important aspect in the cycle of seismic interpretation. Seismic velocities conversion, well velocities utilization and corrections- everything affects the final output. So, experienced interpreter only can generate a reliable velocity model.</p><p>The best workflow which Ameyem followed to build velocity model is given below. This workflow is best suited for every developed or exploration block. Depending on the client requirements Ameyem can deviate from this workflow if need be there</p>",
+      "im_rel_url": [],
+      "im_descr": []
+    },
+    {
+      "id": 40,
+      "subject": "Loading of Stacking velocity & QC",
+      "parent": 39,
+      "children": [],
+      "description":
+        "<p>Usually in exploration blocks and less likely in development blocks there are different vintages data need to be used. Stacking velocity of various vintages need to be merged. This can be done before loading or after loading depending on the ease. But before that, you may need to delete vintages which are grossly dissimilar </p>",
+      "im_rel_url": [],
+      "im_descr": []
+    },
+    {
+      "id": 41,
+      "subject": "Velocity conversion upscale to model grid",
+      "parent": 39,
+      "children": [],
+      "description":
+        "<p>After loading and QCing the data one needs to Upscale the data. This is usually done in following steps.</p> <ul><li>Upscale the Average velocity property to structural 3D grid, which was prepared using the time horizon and fault plane grids, for further processes</li> <li>  Upscale well average velocity deduced from T-D relation in the wells wherever it exists </li></ul>",
+      "im_rel_url": [],
+      "im_descr": []
+    },
+    {
+      "id": 42,
+      "subject": "Kriging and Co-Kriging",
+      "parent": 39,
+      "children": [],
+      "description":
+        "<p>Kriging and Co-Kriging are so far best methods available for interpolation. We recommend using these methods almost in every velocity modeling work.</p><ul><li> The average velocity to be Kriged using the modelled variogram  for realization of the same where it has not been sampled <li>  Collocated Co-kriging method to be used to realize the well velocities throughout the 3D grid ussing the trend of Seismic average velocity grid </li></ul>",
+      "im_rel_url": [],
+      "im_descr": []
+    },
+    {
+      "id": 43,
+      "subject": "Velocity model",
+      "parent": 39,
+      "children": [],
+      "description":
+        "<p>Finally a velocity model can be built with velocity modeling module using the average velocity property and the time surfaces from Datum to below the deep target horizon </p>",
+      "im_rel_url": ["./geo/43.png"],
+      "im_descr": [
+        "Velocity model built in thrust setting using Petrel velocity modeling module."
+      ]
+    },
+    {
+      "id": 44,
+      "subject": "Depth Conversion",
+      "parent": 39,
+      "children": [],
+      "description":
+        "<p>The resultant velocity model can be used to depth convert time grids and these resultant surfaces further used to prepare well tied depth structural model, as the simple depth grids do not represent actual depth model</p>",
+      "im_rel_url": [],
+      "im_descr": []
+    },
+    {
+      "id": 45,
+      "subject": "Stuctural model bulding",
+      "parent": 0,
+      "children": [46, 47, 48],
+      "description":
+        "<p>Once the Velocity model ready, it would be fairly easy task to build the structural model. But it has to be seen whther the sofftware has the facility to build structural model directly from the velcoity model and time structural model. Otherwise one may need to first get the time surfaced converted to depth, then the resultant surfaces to be used to build the depth structure model. p>",
+      "im_rel_url": ["./geo/45.png"],
+      "im_descr": ["Depth structural surface generated with velocity model."]
+    },
+    {
+      "id": 46,
+      "subject": "Limitations",
+      "parent": 45,
+      "children": [],
+      "description":
+        "<p>There are limitations for each procedure in the entire process. These are specific to specific fields. In one of our projects, we faced few difficulties and Some of those have been kept here for your understanding. <ul><li> Fault definition is poor due to poor image quality at certain places which necessitates caution in estimating the exact location of fault in space.</li><li> Events are not continuous at crest thus allow interpreter\\'s imagination at those places. </li><li> Limited VSP/Check-shot data, further adds to the uncertainty in velocity estimation over anticline crest and across the back-thrust which may cause imperfect predictions of key horizons near crest.</li><li> Large velocity variation as observed in seismic RMS velocity across back thrust and poor horizon picking near sub-thrust zone causes large uncertainties in depth prediction of key horizons in sub-thrust zone. </li></ul>",
+      "im_rel_url": [],
+      "im_descr": []
+    },
+    {
+      "id": 47,
+      "subject": "Well tied depth maps",
+      "parent": 45,
+      "children": [],
+      "description":
+        "<p>Depth conversion doesn\\'t complete without tying to the well tops. At Ameyem we know how to tie gently yet perfectly without generating bull eye effects in the maps.</p>",
+      "im_rel_url": [],
+      "im_descr": []
+    },
+    {
+      "id": 48,
+      "subject": "Isopach maps",
+      "parent": 45,
+      "children": [],
+      "description":
+        "<p>Depending on the requirements isopach maps can be generated to be able to get an overview on how depositional environment changed through time.</p>",
+      "im_rel_url": [],
+      "im_descr": []
+    },
+    {
+      "id": 49,
+      "subject": "Uncertainties in interpretation and depth conversion",
+      "parent": 15,
+      "children": [],
+      "description":
+        "<p>These are specific to the work we carried out </p><ul><li>Both new and old 2D Seismic lines are less supportive over the crest and axial planes of anticline as well as considerable distance at either sides of the back thrust. Events are not continuous thus allow interpreter imagination at those places. </li><li>  The absence of VSP/Check-shot is a drawback to address uncertainty in velcoity/T-D relation over anticline crest and across the back-thrust which causes imperfect predictions of key horizons near crest.</li><li> Large velocity variation as observed in seismic RMS velocity across back thrust and poor horizon picking near sub-thrust zone causes large uncertainties in depth prediction of key horizons in sub-thrust zone. </li></ul>",
+      "im_rel_url": [],
+      "im_descr": []
+    },
+    {
+      "id": 50,
+      "subject": "Prospect/Lead identification",
+      "parent": 0,
+      "children": [],
+      "description":
+        "<p>With our rich experience in Early and Mature Exploration and Development, we at Ameyem know better the art of generating prospects and leads. We better understand the uncertainties in velocities, interpretation and depth conversions and can able to generate best results with the existing/present interpretation</p>",
+      "im_rel_url": [],
+      "im_descr": []
+    },
+    {
+      "id": 51,
+      "subject": "Volumetrics",
+      "parent": 0,
+      "children": [],
+      "description":
+        "<p>The seismic interpretation may not get finished without an idea on volumes. We are specially equipped with the skills of calculating volumetrics. Having knowledge of working with Volumetric Certification companies we know how to put forward the volumetrics.</p>",
+      "im_rel_url": [],
+      "im_descr": []
+    },
+    {
+      "id": 52,
+      "subject": "AVO and Rock physics analysis",
+      "parent": 0,
+      "children": [],
+      "description":
+        "<p>We are equipped with best tools for any ofAVO and Rock Physics analysis and produce best results. We can carry out the feasibility work for AVO and Rock physics analysis and provide services at compititive costs. Sections of AVO attributes can be produced at very less costs.</p>",
+      "im_rel_url": ["./geo/52-a.png", "./geo/52-c.png", "./geo/52.png"],
+      "im_descr": [
+        "Cross plots of intercept vs. gradient and lito indicator vs. fluid indicator",
+        "Synthetic section- Amplitude variation with offset",
+        "Attribute section-Product of intercept and gradient depicting fluid anomalies"
+      ]
+    },
+    {
+      "id": 53,
+      "subject": "Petrophysics",
+      "parent": 0,
+      "children": [],
+      "description":
+        "<p>We developed an unique way of constructiong petrophysical logs using Machine Learning techniques. We prepare data for training using the raw well logs and the known petrophysical properties at the locations where core data available. Then train the model using the data and finally use the model to produce petrophysical properties at unknown place. We have developed the technique and can prove at free of cost how it can produce best results.</p>",
+      "im_rel_url": [],
+      "im_descr": []
+    },
+    {
+      "id": 54,
+      "subject": "Seismic Inversion",
+      "parent": 0,
+      "children": [],
+      "description":
+        "<p>Seismic inversion with machine learning is promising but untested. We are ready to test this technique on the client data set at free of cost.</p>",
+      "im_rel_url": [],
+      "im_descr": []
+    }
+  ]
+}

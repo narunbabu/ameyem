@@ -1,0 +1,38 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "title": "We the Leaders In South India in Online Trainings",
+      "subtitle": " Why don't you become part of it?",
+      "subject":
+        "With thousands of Engineering students registered and hundreds of students already completed more than 10 tasks. It's just a matter of time to become Leader in online trainings in entire India."
+    },
+    {
+      "id": 2,
+      "title": "So much rush?",
+      "subtitle": "The program deserves it",
+      "subject":
+        " Because... It is a promising technique and Student is getting attached to the each chapter in a course. It creates entusiasm. The guides with their presense online 24/7 make sure student get most out of it with thier clever tasks and quizzes."
+    },
+    {
+      "id": 3,
+      "title": "Want to become partner!!! ",
+      "subtitle": "There are plenty opportunities",
+      "subject":
+        "You can become partner by simply writing to us at ab@ameyem.com. We are looking for the partners who can join the hands with us in this Maha Yagna... "
+    },
+    {
+      "id": 4,
+      "title": "Want to provide courses as teacher and earn money??? ",
+      "subject":
+        "Yes we are here for the same. Get in touch with us. We are more than happy to welcome you on board "
+    },
+    {
+      "id": 5,
+      "title": "Be with us!!! ",
+      "subtitle": "Register now",
+      "subject":
+        "Register as a teacher or students on <a mat-button href='https://ameyem.com/asdp' target='_blank' > ASDP Login  </a> "
+    }
+  ]
+}

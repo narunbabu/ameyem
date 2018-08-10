@@ -1,0 +1,83 @@
+
+<div class="row justify-content-md-center">
+       
+    <div class="col-sm-12">   
+            <mat-sidenav-container   class="example-container">                          
+                                  <mat-sidenav  #sidenav mode="side" opened="false" class="sidenav">  
+                                      <mat-nav-list>
+                                         <a mat-list-item *ngFor="let child of childs"   (click)="sidenav.toggle();onSelect(child.id)"> {{child.subject}}</a>
+                                     </mat-nav-list>
+                                  </mat-sidenav>  
+
+                                  <mat-sidenav-content style="padding: 10px" *ngIf='exec'>
+                                      <a (click)="sidenav.toggle()">
+                                        <i class="material-icons">menu </i>
+                                      </a> 
+                                      <div class="mat-typography">
+                                          <div class="row">
+                                              <div class="col-10 signature">
+                                                  <p class="mat-display-1" >{{sub2print.subject}}</p> 
+                                                </div>
+                                              <div *ngIf="sub2print.id!=0" class="col-1">
+                                                  <a mat-mini-fab  (click)="onSelect(parent.id)">  <mat-icon>keyboard_return</mat-icon> </a>
+                                             </div>
+                                            </div>     
+                                            
+                                            <mat-card >
+                                                
+                                                <mat-card-header>
+                                                  </mat-card-header>
+                                                  <mat-card-content style="text-align: left">
+                                                    <p [innerHTML]="sub2print.description" class="mat-title"></p> 
+                                                  </mat-card-content>
+                                                <div *ngFor= 'let i of getArray(sub2print["im_rel_url"].length)' style="text-align: center">
+                                                  <img  mat-card-image  src='/assets/{{sub2print["im_rel_url"][i]}}' onError="this.src='/assets/images/error.png'"/> 
+                                                <!-- {{i}} -->
+                                                <label>
+                                                  <i>{{sub2print["im_descr"][i]}}</i>
+                                                </label>
+                                                <hr>
+                                                </div>
+                                            </mat-card>
+                                      
+                                      <mat-list *ngIf='subchilds'>
+                                          <mat-list-item *ngFor="let child of subchilds">
+                                             <p  class="subheading-1" style="cursor: pointer;color: crimson" (click)="onSelect(child.id)" >  {{child.subject}}</p>
+                                          </mat-list-item>
+                                        </mat-list>
+
+                                      <mat-list *ngIf='!subchilds' >
+                                         <mat-list-item *ngFor="let child of childs">
+                                              <p  class="subheading-1"   style="cursor: pointer;color: crimson" (click)="onSelect(child.id)">  {{child.subject}}</p>
+                                              </mat-list-item>
+                                      </mat-list>  
+                                      
+                                       
+                                    </div> <!-- mat-typography end -->       
+                                    
+                                    
+                                  </mat-sidenav-content>
+                                  
+                                  
+                                      
+                                </mat-sidenav-container>
+</div>
+</div>
+<div class="row justify-content-md-center">
+    <div class="col-6 align-self-start justify-content-start">
+        <button mat-fab *ngIf="prev_sub_id>=0" (click)="onSelect(prev_sub_id)" ><mat-icon>keyboard_arrow_left</mat-icon></button>
+                                          
+    </div> 
+    <!-- <div class="col-8">
+        
+                                          
+    </div>  -->
+     <div class="col-6 align-self-start justify-content-end" style="text-align: right">
+       <button mat-fab *ngIf="next_sub_id>=0" (click)="onSelect(next_sub_id)"><mat-icon>keyboard_arrow_right</mat-icon></button> 
+     </div> 
+
+</div>
+
+
+
+
